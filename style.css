@@ -1,7 +1,7 @@
 .header{
     display: flex;
     background-color: #1F2937;
-    padding: 20px 200px 20px 200px; 
+    padding: 20px 10% 20px 10%; 
     justify-content: space-between;
 }
 
@@ -9,7 +9,7 @@
     color: white;
 }
 .text.logo{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -21,9 +21,101 @@
 .first-content{
     background-color: #1F2937;
     display: flex;
-    padding: 20px 200px 20px 200px; 
+    padding: 20px 10% 20px 10%; 
+    flex: 1 1 auto;
+    justify-content: space-between;
 }
 .first-content .left-side{
     display: flex;
     flex-direction: column;
+    width: 40%;
+}
+.main-text, .button-text, .paragraph{
+    color: #F9FAF8;
+}
+
+.button-text{
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 30%;
+    padding: 5px;
+    border-color: #3882F6;
+    font-weight: 600;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-content .right-side{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+    padding-bottom: 5%;
+}
+
+.second-content .upper-side{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+
+.illustration{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+
+.illustration .text{
+    width: 150px;
+    text-align: center;
+}
+
+.third-content{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 7%;
+}
+
+.third-content .text{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 0;
+
+}
+.third-content .thor{
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 70%;
 }
