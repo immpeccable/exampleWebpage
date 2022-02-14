@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 200px 20px 200px; 
+    justify-content: space-between;
+}
+
+.header .text{
+    color: white;
+}
+.text.logo{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header .right-side{
+    display: flex;
+    gap: 15px;
+}
+
+.first-content{
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 200px 20px 200px; 
+}
+.first-content .left-side{
+    display: flex;
+    flex-direction: column;
+}
