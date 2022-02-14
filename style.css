@@ -3,6 +3,7 @@
     background-color: #1F2937;
     padding: 20px 10% 20px 10%; 
     justify-content: space-between;
+    margin-left: 0px;
 }
 
 .header .text{
@@ -125,7 +126,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    margin: 7% 12% 7% 12%;
+    margin: 5% 9% 5% 9%;
     border-radius: 6px;
     padding: 4% 8% 4% 8%;
 
@@ -159,4 +160,13 @@
     background-color: #3882F6;
     padding: 1% 4% 1% 4%;
     border-width: 2px;;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2% 0 2% 0;
 }
